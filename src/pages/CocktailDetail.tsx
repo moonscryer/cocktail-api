@@ -18,6 +18,7 @@ const CocktailDetail = () => {
           <h1>{cocktail.strDrink}</h1>
           <p>{cocktail.strDrink}</p>
           <img src={cocktail.strDrinkThumb} alt={cocktail.strDrink} />
+          <p>{cocktail.strInstructions}</p>
         </div>
       )}
     </>
